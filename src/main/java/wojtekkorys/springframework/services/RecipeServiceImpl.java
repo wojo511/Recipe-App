@@ -4,8 +4,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import wojtekkorys.springframework.commands.RecipeCommand;
-import wojtekkorys.springframework.converters.converters.RecipeCommandToRecipe;
-import wojtekkorys.springframework.converters.converters.RecipeToRecipeCommand;
+import wojtekkorys.springframework.converters.RecipeCommandToRecipe;
+import wojtekkorys.springframework.converters.RecipeToRecipeCommand;
 import wojtekkorys.springframework.domain.Recipe;
 import wojtekkorys.springframework.repositories.RecipeRepository;
 

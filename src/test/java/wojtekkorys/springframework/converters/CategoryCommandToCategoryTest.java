@@ -4,7 +4,7 @@ import wojtekkorys.springframework.commands.CategoryCommand;
 import wojtekkorys.springframework.domain.Category;
 import org.junit.Before;
 import org.junit.Test;
-import wojtekkorys.springframework.converters.converters.CategoryCommandToCategory;
+import wojtekkorys.springframework.converters.CategoryCommandToCategory;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;

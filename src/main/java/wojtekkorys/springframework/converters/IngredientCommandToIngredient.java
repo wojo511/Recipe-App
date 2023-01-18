@@ -1,10 +1,10 @@
-package wojtekkorys.springframework.converters.converters;
+package wojtekkorys.springframework.converters;
 
-import wojtekkorys.springframework.commands.IngredientCommand;
-import wojtekkorys.springframework.domain.Ingredient;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
+import wojtekkorys.springframework.commands.IngredientCommand;
+import wojtekkorys.springframework.domain.Ingredient;
 
 
 @Component

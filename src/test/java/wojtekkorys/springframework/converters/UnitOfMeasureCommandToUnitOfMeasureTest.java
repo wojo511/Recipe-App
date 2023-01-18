@@ -4,7 +4,6 @@ import wojtekkorys.springframework.commands.UnitOfMeasureCommand;
 import wojtekkorys.springframework.domain.UnitOfMeasure;
 import org.junit.Before;
 import org.junit.Test;
-import wojtekkorys.springframework.converters.converters.UnitOfMeasureCommandToUnitOfMeasure;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;

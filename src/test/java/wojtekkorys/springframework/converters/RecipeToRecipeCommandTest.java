@@ -1,7 +1,6 @@
 package wojtekkorys.springframework.converters;
 
 import wojtekkorys.springframework.commands.RecipeCommand;
-import wojtekkorys.springframework.converters.converters.*;
 import wojtekkorys.springframework.domain.*;
 import org.junit.Before;
 import org.junit.Test;

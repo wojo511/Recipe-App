@@ -1,11 +1,11 @@
-package wojtekkorys.springframework.converters.converters;
+package wojtekkorys.springframework.converters;
 
-import wojtekkorys.springframework.commands.RecipeCommand;
-import wojtekkorys.springframework.domain.Recipe;
 import lombok.Synchronized;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
+import wojtekkorys.springframework.commands.RecipeCommand;
+import wojtekkorys.springframework.domain.Recipe;
 
 
 @Component

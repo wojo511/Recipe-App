@@ -1,11 +1,11 @@
-package wojtekkorys.springframework.converters.converters;
+package wojtekkorys.springframework.converters;
 
-import wojtekkorys.springframework.commands.IngredientCommand;
-import wojtekkorys.springframework.domain.Ingredient;
 import lombok.Synchronized;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
+import wojtekkorys.springframework.commands.IngredientCommand;
+import wojtekkorys.springframework.domain.Ingredient;
 
 
 @Component
@@ -27,6 +27,9 @@ public class IngredientToIngredientCommand implements Converter<Ingredient, Ingr
 
         IngredientCommand ingredientCommand = new IngredientCommand();
         ingredientCommand.setId(ingredient.getId());
+        if (ingredient.getRecipe() != null) {
+            ingredientCommand.setRecipeId(ingredient.getRecipe().getId());
+        }
         ingredientCommand.setAmount(ingredient.getAmount());
         ingredientCommand.setDescription(ingredient.getDescription());
         ingredientCommand.setUom(uomConverter.convert(ingredient.getUom()));

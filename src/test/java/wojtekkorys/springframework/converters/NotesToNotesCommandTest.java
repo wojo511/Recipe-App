@@ -4,7 +4,6 @@ import wojtekkorys.springframework.commands.NotesCommand;
 import wojtekkorys.springframework.domain.Notes;
 import org.junit.Before;
 import org.junit.Test;
-import wojtekkorys.springframework.converters.converters.NotesToNotesCommand;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;

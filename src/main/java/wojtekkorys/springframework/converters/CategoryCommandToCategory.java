@@ -1,12 +1,12 @@
-package wojtekkorys.springframework.converters.converters;
+package wojtekkorys.springframework.converters;
 
 
-import wojtekkorys.springframework.commands.CategoryCommand;
-import wojtekkorys.springframework.domain.Category;
 import lombok.Synchronized;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
+import wojtekkorys.springframework.commands.CategoryCommand;
+import wojtekkorys.springframework.domain.Category;
 
 
 @Component

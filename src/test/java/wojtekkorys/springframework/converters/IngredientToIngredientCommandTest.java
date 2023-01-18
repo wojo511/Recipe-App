@@ -6,8 +6,6 @@ import wojtekkorys.springframework.domain.Recipe;
 import wojtekkorys.springframework.domain.UnitOfMeasure;
 import org.junit.Before;
 import org.junit.Test;
-import wojtekkorys.springframework.converters.converters.IngredientToIngredientCommand;
-import wojtekkorys.springframework.converters.converters.UnitOfMeasureToUnitOfMeasureCommand;
 
 import java.math.BigDecimal;
 

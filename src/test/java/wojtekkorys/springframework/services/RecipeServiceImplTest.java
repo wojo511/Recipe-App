@@ -4,8 +4,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import wojtekkorys.springframework.converters.converters.RecipeCommandToRecipe;
-import wojtekkorys.springframework.converters.converters.RecipeToRecipeCommand;
+import wojtekkorys.springframework.converters.RecipeCommandToRecipe;
+import wojtekkorys.springframework.converters.RecipeToRecipeCommand;
 import wojtekkorys.springframework.domain.Recipe;
 import wojtekkorys.springframework.repositories.RecipeRepository;
 

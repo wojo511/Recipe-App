@@ -1,8 +1,8 @@
 package wojtekkorys.springframework.services;
 
 import wojtekkorys.springframework.commands.RecipeCommand;
-import wojtekkorys.springframework.converters.converters.RecipeCommandToRecipe;
-import wojtekkorys.springframework.converters.converters.RecipeToRecipeCommand;
+import wojtekkorys.springframework.converters.RecipeCommandToRecipe;
+import wojtekkorys.springframework.converters.RecipeToRecipeCommand;
 import wojtekkorys.springframework.domain.Recipe;
 import wojtekkorys.springframework.repositories.RecipeRepository;
 import org.junit.Test;

@@ -8,7 +8,7 @@ import wojtekkorys.springframework.domain.Difficulty;
 import wojtekkorys.springframework.domain.Recipe;
 import org.junit.Before;
 import org.junit.Test;
-import wojtekkorys.springframework.converters.converters.*;
+import wojtekkorys.springframework.converters.*;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
